@@ -1,0 +1,8 @@
+Scripts for Arista EOS ZTP. These scripts are meant to be delivered to an
+Arista switch via ZTP through DHCP. 
+
+BaseConfig.py - From the Arista ACE Class lab, this script initializes the 
+      		switches in the lab by determining the Ethernet interface
+		connected on Management1. In the lab, the student switches
+		are configured based on their position in the network. 
+		ex: the switch connected to Ethernet 5 is Student-05.
